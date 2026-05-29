@@ -1,0 +1,62 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Dependency manager logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Build output
+dist/
+build/
+/.nyc_output/
+coverage/
+
+# Project-specific build folders
+/backend/dist/
+/website/dist/
+
+# Vite cache
+/.vite/
+
+# Runtime files
+pids/
+*.pid
+*.seed
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.*.local
+
+# Editor/IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Temp
+.temp/
+.tmp/
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
